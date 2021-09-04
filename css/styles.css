@@ -4,7 +4,7 @@
     --primary-purple: #455aa3;
     --primary-green: #40b281;
     --header-container-bg-color: #FFFFFF;
-    --page-container-bg-color: #5ecff5;
+    --page-container-bg-color: #e0f7ff;
 }
 
 * {
@@ -16,11 +16,15 @@
 body {
     font-family: Ubuntu, "times new roman", times, roman, serif;
     background-color: #ebefff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
 }
 
 .portfolio-container {
-    border: solid 1.5px var(--primary-purple);
+    border: solid 2px var(--primary-green);
 }
+
 .center-fit {
     max-width: 1070px;
     margin: 0 auto;
@@ -112,11 +116,89 @@ height: auto;
     display: block;
     height: 2px;
     border: 0;
-    border-top: 2px solid var(--primary-purple);
+    border-top: 3px solid var(--primary-purple);
     padding: 0;
 }
 
 /* Page CSS */
 .page-container {
     background-color: var(--page-container-bg-color);
+    padding-bottom: 2em;
+}
+
+.page-left {
+    padding-top: 1em;
+    margin-left: 35px;
+}
+
+.technical-title {
+    font-weight: bold;
+    font-size: 28px;
+    padding-bottom: 0.8em;
+}
+
+.technical-section-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+
+.technical-section-tag {
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+.technical-section-body-title {
+    font-size: 16px;
+    font-style: italic;
+    color:var(--primary-green);
+    font-weight: bold;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+li {
+    padding-left: 1em; 
+    text-indent: -0.7em;
+    padding-bottom: 0.5em;
+    font-size: 14px;
+}
+  
+li::before {
+    content: "• ";
+    color: var(--primary-green);
+    padding-right: 10px;
+}
+
+  /* Education Section */
+.education-title {
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 0.9em;
+
+}
+
+.education-section-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 0.2em;
+}
+
+.education-section-tag {
+    font-size: 20px;
+}
+
+.education-section-body-title {
+    font-size: 16px;
+    font-style: italic;
+    color:var(--primary-green);
+    font-weight: bold;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
 }
