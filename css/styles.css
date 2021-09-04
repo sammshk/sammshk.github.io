@@ -3,7 +3,7 @@
 :root {
     --primary-purple: #455aa3;
     --primary-green: #40b281;
-    --header-container-bg-color: #ffa07a;
+    --header-container-bg-color: #FFFFFF;
     --page-container-bg-color: #5ecff5;
 }
 
@@ -13,18 +13,110 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+    background-color: #ebefff;
+}
+
+.portfolio-container {
+    border: solid 1.5px var(--primary-purple);
+}
 .center-fit {
-    max-width: 1080px;
-    padding: 0 15px;
+    max-width: 1070px;
     margin: 0 auto;
-
 }
 
-header {
+.header-container {
     background: var(--header-container-bg-color);
+    padding: 0 15px;
+}
+
+/* Navbar profile - Left */
+.profile-name {
+    color: var(--primary-purple);
+    font-size: 46px;
+}
+
+.profile-title {
+    color: var(--primary-green);
+    font-size: 24px;
+}
+.profile-description {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+/* Navigation Bar General*/
+nav {
+    padding-top: 0em;
+    padding-bottom: 1.2em;
+}
+.nav-left {
+    /* padding: 0px 0px 10px 10px; */
+    padding-top: 1em;
+    margin-left: 20px;
+}
+
+.nav-center {
+    /* padding: 0px 0px 10px 10px; */
+    margin-top: 0em;
+    padding-top: 1.5em;
+    padding-right: 10em;
+
+}
+
+.nav-right {
+    margin-right: 20px;
+    padding-top:0em;
 }
 
 
+
+/* Navbar Portrait Image */
+.circular-portrait {
+    position: relative;
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 5px var(--primary-green);
+  }
+  
+.circular-portrait img {
+width: 100%;
+height: auto;
+}
+
+/* Navbar Right */
+.profile-content {
+    position:relative;
+    padding: 0 0 3px;
+    font-size: 15px;
+}
+
+.profile-icon {
+    display:inline;
+    float:right;
+    padding-left: 10px;
+}
+
+.profile-img {
+    padding-left: 5px;
+    width: 20px;
+    height: 20px;
+    float:right;
+}
+
+/* HR separator */
+.hr-ruler {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid var(--primary-purple);
+    padding: 0;
+}
+
+/* Page CSS */
 .page-container {
     background-color: var(--page-container-bg-color);
 }

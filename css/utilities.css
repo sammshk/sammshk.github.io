@@ -9,3 +9,7 @@
 .justify-between {
     justify-content: space-between;
 }
+
+.nav-element-width {
+    max-width: 33.33%;
+}
