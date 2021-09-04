@@ -1,0 +1,30 @@
+@import 'utilities.css';
+
+:root {
+    --primary-purple: #455aa3;
+    --primary-green: #40b281;
+    --header-container-bg-color: #ffa07a;
+    --page-container-bg-color: #5ecff5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center-fit {
+    max-width: 1080px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+header {
+    background: var(--header-container-bg-color);
+}
+
+
+.page-container {
+    background-color: var(--page-container-bg-color);
+}
