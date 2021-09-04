@@ -13,3 +13,7 @@
 .nav-element-width {
     max-width: 33.33%;
 }
+
+.page-left-width {
+    min-width: 56%;
+}

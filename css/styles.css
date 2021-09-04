@@ -4,7 +4,7 @@
     --primary-purple: #455aa3;
     --primary-green: #40b281;
     --header-container-bg-color: #FFFFFF;
-    --page-container-bg-color: #e0f7ff;
+    --page-container-bg-color: #FFFFFF;
 }
 
 * {
@@ -75,7 +75,6 @@ nav {
 }
 
 
-
 /* Navbar Portrait Image */
 .circular-portrait {
     position: relative;
@@ -126,9 +125,11 @@ height: auto;
     padding-bottom: 2em;
 }
 
+/* Page Left */
 .page-left {
     padding-top: 1em;
     margin-left: 35px;
+    margin-right: 30px;
 }
 
 .technical-title {
@@ -145,7 +146,6 @@ height: auto;
 
 .technical-section-tag {
     font-size: 20px;
-    /* font-weight: bold; */
 }
 
 .technical-section-body-title {
@@ -201,4 +201,101 @@ li::before {
     font-weight: bold;
     padding-top: 0.8em;
     padding-bottom: 0.8em;
+}
+
+/* Page Right */
+.page-right {
+    margin-right: 35px;
+}
+
+/* Skills Section */
+.skill-levels {
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 3.2em;
+    margin-bottom: 0.6em;
+}
+
+.skill-title {
+    font-size: 22px;
+    margin-bottom: 0.2em;
+
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: var(--primary-purple);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+}
+.dot-empty {
+    height: 25px;
+    width: 25px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+}
+.skill-dots {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+/* Projects Section */
+.personal-projects {
+    font-weight: bold;
+    font-size: 27px;
+    padding-top: 0.5em;
+    margin-bottom: 0.6em;
+}
+
+.project-title {
+    font-size: 20px;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+}
+
+.languages {
+    font-weight: bold;
+    font-size: 27px;
+    padding-top: 0.5em;
+    margin-bottom: 0.3em;
+    margin-top: 0.6em;
+}
+
+.language-name {
+    font-size: 20px;
+    padding-top: 0.6em;
+    padding-bottom: 0.2em;
+}
+
+.language-proficiency {
+    color: var(--primary-purple);
+    font-style: italic;
+}
+
+.other-interests-section {
+    font-weight: bold;
+    font-size: 27px;
+    padding-top: 0.5em;
+    margin-bottom: 0.3em;
+    margin-top: 0.6em;
+}
+
+.interests-row {
+    margin-bottom: 0.3em;
+    margin-top: 0.6em;
+}
+
+.button-type1 {
+    background-color: #fdfdfd;
+    border: solid 3px var(--primary-purple);
+    border-radius: 0.5rem;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 7px;
 }
